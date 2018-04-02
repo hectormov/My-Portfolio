@@ -1,0 +1,70 @@
+
+.featured, .hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 470px) {
+  .social {
+    padding: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .social-text {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  h1 {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 471px) {
+  .header-details h1 {
+    font-size: 38px;
+  }
+  .header-details h5 {
+    font-size: 12px;
+  }
+  .social-text {
+    font-size: 18px;
+  }
+  .description {
+    top: 75%;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .description h3 {
+    font-size: 20px;
+  }
+  .description p {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  .work-img-container {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .description {
+    top: 80%;
+  }
+  .header-details h5 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1010px) {
+  .description {
+    top: 85%;
+  }
+  .header-details h5 {
+    font-size: 16px;
+  }
+}

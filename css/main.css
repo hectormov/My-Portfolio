@@ -1,0 +1,233 @@
+/* Common */
+body, header, footer {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+header {
+  height: 11vh;
+  margin-top: calc(11vh / 3);
+  margin-bottom: calc(11vh / 3);
+  border-bottom: 2px solid;
+  min-height: 80px;
+}
+
+.header-details {
+  text-align: right;
+  margin: calc(11vh/6);
+}
+
+.title {
+  font: bold 24px "Century Schoolbook", Georgia, Times, serif;
+  color: #333;
+  line-height: 90%;
+  letter-spacing: -2px;
+  margin-bottom: calc(11vh/6);
+}
+
+.subtitle {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Lucida Grande", Verdana, Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: #76879b;
+  font-size: 10px;
+}
+
+body {
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: 16px;
+  background-color: lightgray;
+  min-width: 380px;
+}
+
+/*header*/
+
+.logo {
+  float: left;
+  height: 100%;
+  margin-left: 10px;
+  position: relative;
+  top: -20px;
+  font: 84px 'Arial Narrow', sans-serif;
+  color: #fefefe;
+  letter-spacing: -4px;
+}
+
+.word1, .word2 {
+  position: relative;
+}
+
+.word1 {
+  color: #4169E1;
+  margin-right: -38px;
+  display: inline-block;
+  z-index: 10;
+}
+
+.word1:before, .word1:after {
+  content: '';
+  position: absolute;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent;
+  height: 0;
+  z-index: 10;
+}
+
+.word1:before {
+  right: 18px;
+  top: 17px;
+  border-top-color: lightgray;
+  border-left-color: lightgray;
+}
+
+.word1:after {
+  left: -10px;
+  bottom: 17px;
+  border-bottom-color: lightgray;
+  border-right-color: lightgray;
+}
+
+.word2 {
+  z-index: 0;
+}
+
+.word2:before, .word2:after {
+  content: '';
+  position: absolute;
+  border-width: 16px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+.word2:before {
+  left: -7px;
+  top: 15px;
+  border-top-color: lightgray;
+  border-left-color: lightgray;
+}
+
+.word2:after {
+  right: -1px;
+  bottom: 18px;
+  border-bottom-color: lightgray;
+  border-right-color: lightgray;
+}
+
+/* main */
+/*Hero*/
+
+.hero {
+  position: relative;
+  height: calc(30 * (1vw + 1vh - 1vmin));
+  height: 30vmax;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 800px;
+  border-bottom-left-radius: 800px;
+  border-bottom-right-radius: 30px;
+  max-height: 320px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.description {
+  width: 50%;
+  position: absolute;
+  top: 70%;
+  left: 25%;
+  right: 25%;
+  color: #fff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* FEATURED WORK */
+
+h2 {
+  font-size: 24px;
+  color:#4E443C;
+  font-variant: small-caps;
+  margin-left: 5%;
+  margin-top: 20px
+}
+
+.featured {
+  padding: 10px;
+  text-align: center;
+}
+
+.work-img-container {
+  width: 250px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  box-shadow: 15px 15px 8px rgba(0, 0, 0, 0.36);
+  object-fit: cover;
+}
+
+.project-name {
+  margin-bottom: 0;
+}
+
+.project-link {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+/* footer */
+
+footer {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  text-align: center;
+  margin: 10px;
+
+}
+
+.social {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-left: 0;
+  display: inline-block;
+}
+
+.social-text {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-right: 25px;
+}
+
+.github {
+  color: #24292e;
+  font-size: 20px;
+}
+
+.linkedin {
+  color: #0077B5;
+  font-size: 20px;
+}
+
+.icon-linkedin {
+  position: relative;
+  bottom: 2px;
+}
+
+.gmail {
+  color: red;
+  font-size: 20px;
+}
+
+.copyright {
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+}
