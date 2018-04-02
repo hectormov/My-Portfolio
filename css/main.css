@@ -57,10 +57,12 @@ body {
   font: 84px 'Arial Narrow', sans-serif;
   color: #fefefe;
   letter-spacing: -4px;
+  -webkit-appearance: none;
 }
 
 .word1, .word2 {
   position: relative;
+  -webkit-appearance: none;
 }
 
 .word1 {
