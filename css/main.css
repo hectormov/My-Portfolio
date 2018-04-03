@@ -1,8 +1,9 @@
 /* Common */
-body, header, footer {
+html, body, header, footer {
   max-width: 1180px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 h2, h3 {
@@ -43,7 +44,6 @@ body {
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-size: 16px;
   background-color: lightgray;
-  min-width: 380px;
 }
 
 /*header*/
@@ -155,8 +155,7 @@ h2 {
   color:#4E443C;
   font-variant: small-caps;
   margin-left: 5%;
-  margin-top: 20px;
-  display: inline-block;
+  margin-top: 30px;
   width: 100%;
   text-align: left;
 }
@@ -190,7 +189,6 @@ h2 {
 footer {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   text-align: center;
-  margin: 10px;
 }
 
 .social {
