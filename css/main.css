@@ -14,7 +14,7 @@ header {
   margin-top: calc(11vh / 3);
   margin-bottom: calc(11vh / 3);
   border-bottom: 2px solid;
-  min-height: 80px;
+  min-height: 85px;
 }
 
 .header-details {
@@ -155,7 +155,10 @@ h2 {
   color:#4E443C;
   font-variant: small-caps;
   margin-left: 5%;
-  margin-top: 20px
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
 }
 
 .featured {
@@ -188,7 +191,6 @@ footer {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   text-align: center;
   margin: 10px;
-
 }
 
 .social {
@@ -226,8 +228,9 @@ footer {
   font-size: 20px;
 }
 
-.copyright {
-  margin-top: 0;
-  margin-bottom: 10px;
-  display: inline-block;
+.css-validator {
+  float: right;
+  position: relative;
+  bottom: 45px;
+  margin-right: 5px;
 }
