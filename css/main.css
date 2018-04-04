@@ -123,6 +123,11 @@ body {
 /* main */
 /*Hero*/
 
+#figure {
+  width: 100%;
+  margin: 0;
+}
+
 .hero {
   position: relative;
   height: calc(30 * (1vw + 1vh - 1vmin));
